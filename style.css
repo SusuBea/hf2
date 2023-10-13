@@ -29,7 +29,7 @@ article{
     justify-content: center; /* Center horizontally */
     align-items: center; /* Center vertically */
     color:rgb(114, 25, 208);
-    font-size: ;
+    
 }
 
 footer{
@@ -38,8 +38,9 @@ footer{
     height: 50px;
     display: flex;
     align-items: center;
+    font-size: 2em;
 }
 
 article div p{
-    font-size: 50px;
+    font-size: 100px;
 }
