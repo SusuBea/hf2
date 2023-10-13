@@ -23,8 +23,8 @@ article{
 .div_class{
     border: 5px solid rgb(114, 25, 208);
     padding: 10px;  
-    width: 80px;
-    height: 80px;
+    width: 100px;
+    height: 100px;
     display: flex;
     justify-content: center; /* Center horizontally */
     align-items: center; /* Center vertically */

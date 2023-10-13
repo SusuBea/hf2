@@ -1,9 +1,9 @@
 class ELEM{
-    #htmlTartalom
+    htmlTartalom
     constructor(szuloElem){
         this.szuloElem = szuloElem;
-        this.#htmlTartalom = this.htmlOsszeallit();
-        this.szuloElem.append(this.#htmlTartalom)
+        this.htmlTartalom = this.htmlOsszeallit();
+        this.szuloElem.append(this.htmlTartalom)
         this.kattintas($('.div_class'))
 
        
