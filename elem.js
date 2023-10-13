@@ -1,23 +1,34 @@
 class ELEM{
+    #htmlTartalom
     constructor(szuloElem){
         this.szuloElem = szuloElem;
+        this.#htmlTartalom = this.htmlOsszeallit();
+        this.szuloElem.append(this.#htmlTartalom)
+        this.kattintas($('.div_class'))
 
-        let txt = this.htmlOsszeallit();
-        console.log(txt)
-        this.szuloElem.html(txt);  
+       
 
         
     }
 
         htmlOsszeallit(){
-            let txt = "";
-
-            txt += "<div class='div_class'><p><p></div>"
+            let txt = "<div class='div_class'><p></p></div>";
             return txt;
 
 
 
         }
+
+
+        kattintas(target){
+            target.on("click", function() {
+                $('article div p').text("X");
+                console.log(ellenorzes)
+              }); 
+    
+
+        }
+
 
 
     }
