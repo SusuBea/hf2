@@ -23,7 +23,7 @@ class ELEM{
         kattintas(target){
             target.on("click", function() {
                 $('article div p').text("X");
-                console.log(ellenorzes)
+                
               }); 
     
 
